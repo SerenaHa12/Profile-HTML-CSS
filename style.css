@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', san-serif;
+}
+
+body{
+    background: rgb(255, 255, 255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    min-height:800px;
+    margin:50px;
+    background:rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,1);
+}
+
+.container .left{
+    position: relative;
+    background: #555555;
+    padding: 40px;
+}
+
+.profile_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.profile_text .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.profile_text .imgBx img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.profile_text h2{
+    color: #fff;
+    font-size: 1em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile_text h2 span{
+    font-size: 0.8em;
+    font-weight:300;
+
+}
+
+.contact{
+    padding-top: 40px;
+}
+
+.title_text{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin-bottom: 20px;
+}
+
+.contact ul{
+    position: relative;
+}
+
+.contact ul li{
+    position:relative;
+    list-style:none;
+    margin:10px 0;
+    cursor: pointer;
+}
+
+.contact ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: #fff;    
+}
+
+.contact ul li span{
+    color: #fff;
+    font-weight:300;    
+}
+
+
+.container .right{
+    position: relative;
+    background: #000000;
+    padding: 40px;
+    display:flex;
+}
+
+.right_left .about{
+    margin-bottom: 50px;
+}
+
+.right_left .about:last-child{
+    margin-bottom: 0;
+}
+
+.right_left .title_text2{
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom:10px;
+}
+
+.education{
+    padding-top: 40px;
+}
+
+.title_text{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.education ul{
+    position: relative;
+}
+
+.education ul li{
+    position:relative;
+    list-style:none;
+    margin:10px 0;
+    color:#fff;
+    cursor: pointer;
+}
+
+.education ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: #fff;    
+}
+
+.education ul li span{
+    color: #fff;
+    font-weight:300;    
+}
+
+.ex{
+    padding-top: 40px;
+}
+
+.title_text{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.ex ul{
+    position: relative;
+}
+
+.ex ul li{
+    position:relative;
+    list-style:none;
+    margin:10px 0;
+    color:#fff;
+    cursor: pointer;
+}
+
+.ex ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 18px;
+    color: #fff;    
+}
+
+.ex ul li span{
+    color: #fff;
+    font-weight:300;    
+}
+
+.right .right_right{
+    position: relative;
+    padding-left:150px;
+}
+
+.des .box{
+    position:relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 3fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.des .box h6{
+    color:azure;
+    font-weight: 500;
+}
+
+.des .box .percent{
+    position: relative;
+    width:100%;
+    height:10px;
+    background: rgb(179, 179, 179);
+}
+
+.des .box .percent div{
+    position: absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    background: rgb(172, 83, 83)
+}
